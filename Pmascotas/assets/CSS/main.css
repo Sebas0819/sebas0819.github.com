@@ -1,0 +1,120 @@
+/*
+  Azul: #190A9E
+  Gris: #bdc3c7 Grade grey
+  Respaldo: Amarillo: #ffd452
+  Blanco: #fff
+*/
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #190A9E;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:focus {
+  background: #bdc3c7;
+}
+
+.title {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffd452; /*Respaldo*/
+  background: #544a7d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 960px;
+max-height: 500px;
+width: 100%;
+height: 100%;
+background-color: #fff;
+/*box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color;*/
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+border-radius: 4px;
+position: relative;
+padding: 1.8em;
+}
+
+.actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close {
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #ffd452;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  line-height: 1.8em;
+  font-weight: 200;
+}
+
+.table {
+  width: 100%
+}
+
+.table td, .table th {
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #bdc3c7;
+}
+
+.title-item {
+  /*border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #ffd452;
+  padding-bottom: 1em;*/
+
+  border-bottom: solid 2px  #ffd452;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+.imagenesmascostas {
+  float: left;
+  margin-right: 1em;
+  height: 300px;
+}
+
+.position{
+  background-color: #ffd452;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 0.5em;
+
+
+}
